@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: wght@100;200; 300; 400; 500; 600; 700& display=swap');
+
+
+
+
+*{
+    box-sizing: border-box ;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.9 linear;
+}  
+
+.navbar {
+ box-shadow: #000 2px 2px 4px ;
+ position: sticky;
+
+  }
+  
+
+  .login-section{
+   padding: 4px 5px 6px 5px ;
+  } 
+  .navbar-nav {
+    margin: 0px ; /* Center the ul list */
+    position: sticky;
+  }
+  
+
+
+  .navbar-toggler {
+    border-color: #000; /* Optional: Customize the navbar toggler */
+  }
+  
+
+  .login {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 0px 40px;
+    margin: 0;
+    border: 1px solid #dbdbdb;
+}
+
+
+  .nav-link {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: .2px;
+   color: #fff;
+  }
+
+  .navbar-brand img{
+   width: 80px;
+   max-height: auto;
+  }
+  .sub-header-list{
+   margin-top: 5px;
+   margin-left: 93px;
+   padding: 3px;
+   display: flex;
+   line-height: 3px 5px ;
+   cursor: pointer;
+   width: 33px;
+  }
+
+  .bg-row{
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  }
+  .sub-header-ul{
+    padding: 3px 7px;
+    margin: 3px 99px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    list-style: none;
+    color: #000000;
+  }
+
+  ::ng-deep .ant-cascader-menu {
+  padding: 5px 5px;
+  margin: 8px 8px 8px 9px ;
+  width: 100px;
+  max-height: 500px;
+  }
+  ::ng-deep .ant-select-dropdown {
+    top: 100%;
+    left: 0;
+    padding: 8px 4px ;
+    height: 800px;
+    position: relative;
+    width: 900px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: block;
+}

@@ -1,0 +1,72 @@
+<!-- Header -->
+
+
+<header class="mx-0 my-0 px-0   ">
+  <nav class="navbar navbar-expand-lg bg py-1  p" style="background-color: #2874f0;">
+    <div class="container">
+      <a class="navbar-brand" >
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="login-section">
+            <button class="login">Login</button>
+        </div>
+        <ul class="navbar-nav px-3 m-2">
+            <li class="nav-item mx-4">
+                <a class="nav-link" href="#">Become a seller</a>
+              </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">More</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="#">Cart
+            <i class="fa-solid fa-cart-shopping py-1 mx-2 fs-6    " style="float: left;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- Header End -->
+
+<!-- Sub Category Header -->
+<div class="row px-3 m-0  bg-row ">
+  <div class="col-12 ">
+       <div class="list-section  ">
+        <ul class="sub-header-ul">
+          <nz-cascader
+          [nzOptions]="options"
+          [(ngModel)]="values"
+          (ngModelChange)="onChanges($event)">
+        </nz-cascader>
+        
+        
+          <li class="sub-header-list">
+            Electronins
+          </li>
+          <li class="sub-header-list">
+            Electronins
+          </li>
+          <li class="sub-header-list">
+            Electronins
+          </li>
+          <li class="sub-header-list">
+            Electronins
+          </li>
+          <li class="sub-header-list">
+            Electronins
+          </li>
+          <li class="sub-header-list">
+            Electronins
+          </li>
+      
+        </ul>
+       </div>
+  </div>
+</div>
+
+<!-- Sub Category Header End -->
