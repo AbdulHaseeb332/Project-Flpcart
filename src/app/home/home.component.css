@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins: wght@100;200; 300; 400; 500; 600; 700& display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins: wght@100;200; 300; 400; 500; 600; 700& display=swap');
 
 
 
@@ -22,14 +22,14 @@
    padding: 4px 5px 6px 5px ;
   } 
   .navbar-nav {
-    margin: 0px ; /* Center the ul list */
+    margin: 0px ; 
     position: sticky;
   }
   
 
 
   .navbar-toggler {
-    border-color: #000; /* Optional: Customize the navbar toggler */
+    border-color: #000; 
   }
   
 
@@ -99,4 +99,4 @@
     margin-top: 4px;
     margin-bottom: 4px;
     display: block;
-}
+} */

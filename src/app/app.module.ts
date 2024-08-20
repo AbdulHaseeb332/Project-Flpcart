@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzCascaderModule } from 'ng-zorro-antd/cascader';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 
 registerLocaleData(en);
 
@@ -26,7 +28,12 @@ registerLocaleData(en);
     FormsModule,
     NzCascaderModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BrowserModule,
+    AngularFireModule,
+    AngularFireAnalyticsModule,
+
+
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }
